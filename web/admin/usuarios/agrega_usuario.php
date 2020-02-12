@@ -21,7 +21,7 @@ switch($proceso){
         	<tr>
                        <th width="20%">Nombre Usuario</th>
                          <th width="20%">Contraseña</th>
-                         <th width="20%">Nivel usuario</th>
+                        
                          <th width="20%">Codigo</th>            
                         <th width="20%">Opciones</th>
             </tr>';
@@ -29,7 +29,7 @@ switch($proceso){
 		echo '<tr>
                               <td>'.$registro2['NombreUsuario'].'</td>
                                 <td>'.$registro2['PassUsuario'].'</td>
-                                <td>'.$registro2['NivelUsuario'].'</td>
+                           
                                  <td>'.$registro2['Codigo'].'</td>
                                <td> <a href="javascript:editarRegistro('.$registro2['idUsuario'].');">
                               <img src="images/lapiz.png" width="25" height="25" alt="delete" title="Editar" /></a>

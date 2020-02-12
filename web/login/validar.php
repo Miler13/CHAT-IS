@@ -18,22 +18,22 @@
 				  	$_SESSION["NivelUsuario"] = $row['NivelUsuario']; 
 				  	$_SESSION["Codigo"] = $row['Codigo']; 
 				  	if ($_SESSION["NivelUsuario"] == 1) {
-				  		echo '<script> window.location="../admin/admin.php"; </script>';
+				  		echo '<script> window.location="../admin/admin"; </script>';
 				  	}
 					  	  elseif ($_SESSION["NivelUsuario"] == 2) {
-					  	 	echo '<script> window.location="../especialistas/especialista.php"; </script>';
+					  	 	echo '<script> window.location="../especialistas/cliente.php"; </script>';
 							}
 						   elseif ($_SESSION["NivelUsuario"] == 3) {
-							echo '<script> window.location="../ninos/nino.php"; </script>'; 
+							
 						}
 							 else {
-						  	 	echo '<script> window.location="../editor/editor.php"; </script>';
+						  	 
 						  	 	//echo $numero;
 						  	 }
 				}
 				else{
 					echo '<script> alert("Usuario o contraseña incorrectos. ");</script>';
-					echo '<script> window.location="../index2.php"; </script>';
+					echo '<script> window.location="../index2"; </script>';
 				}
 			}
 		?>	

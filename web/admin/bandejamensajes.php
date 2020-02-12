@@ -30,7 +30,7 @@ if(isset($_SESSION['NombreUsuario'])) {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Chasqui</title>
+    <title>CHAT</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="../css/modern-business.css" rel="stylesheet">
     <link href="../css/estilo.css" rel="stylesheet">
@@ -55,8 +55,8 @@ include ('menuAdmin.php');
         <!-- Page Heading/Breadcrumbs -->
 
             <div class="row">
-            <div class="col-lg-12">
-            <div class="col-md-3"><img src=" " width="80" height="80" class="img-responsive"></div>
+            <div class="col-lg-10">
+          
                  <div class="col-md-6">
 
                 <img src="" class="img-responsive">
@@ -69,7 +69,7 @@ include ('menuAdmin.php');
             </div>
 
 
-            <div class="col-lg-12">
+            <div class="col-lg-10">
                     <ol class="breadcrumb">
                     <li><a href="../index.php">Inicio</a></li>
                     <li><a href="admin.php">administrador</a></li>
@@ -143,9 +143,7 @@ include ('menuAdmin.php');
 </div>
         <hr>
     </div>
-    <?php
-    include('../includes/footer.php');
- ?>
+
 </body>
 
 </html>
@@ -154,9 +152,9 @@ include ('menuAdmin.php');
      }
      else{
         echo '<script> alert("No Tienes los permisos para acceder a esta pagina.");</script>';
-         echo '<script> window.location="../index.l.php"; </script>';
+         echo '<script> window.location="../index.php"; </script>';
      }
 }else{
- echo '<script> window.location="../index.l.php"; </script>';
+ echo '<script> window.location="../index.php"; </script>';
 }
 ?>

@@ -44,8 +44,8 @@ if(isset($_SESSION['NombreUsuario'])) {
        <br>
         <div class="container">
             <div class="row">
-            <div class="col-lg-12">
-           
+            <div class="col-lg-10">
+         
              <div class="col-md-6">         
                
                
@@ -57,7 +57,7 @@ if(isset($_SESSION['NombreUsuario'])) {
                </div> 
 
             </div>
-            <div class="col-lg-12">
+            <div class="col-lg-10">
                     <ol class="breadcrumb">
                     <li><a href="../index.php">Inicio</a></li>
                     <li><a href="admin.php">Administrador</a></li>
@@ -76,7 +76,7 @@ if(isset($_SESSION['NombreUsuario'])) {
         <div class="panel-heading">
             <div class="btn-group pull-right">
             </div>
-            <center><h4><b>Administracion de Usuarios del CHAT</b></h4></center>
+            <center><h4><b>Administracion de Usuarios del Sistema</b></h4></center>
         </div>
         <div class="panel-body">
             <div class="row">
@@ -135,9 +135,8 @@ include('conexion.php');
 				<div class="col-md-10">
        <select name="nivel" class="form-control">
          
-        <option value="2">Especialista</option>
-        <option value="3">Niño</option>
-        <option value="4">editor</option>
+        <option value="2">Cliente</option>
+      
 		
        </select>
         </div>
@@ -170,9 +169,7 @@ include('conexion.php');
 </div>
         <hr>
     </div>
-    <?php
-    include('../includes/footer.php');
- ?>
+
 </body>
 </html>
 <?php

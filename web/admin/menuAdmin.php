@@ -18,7 +18,12 @@
                             <li>
                                 <a href="bandejamensajes.php">Mis Correos</a>
                             </li>
-                           
+                            <li>
+                                <a href="enviarCorreo.php">Enviar Correo</a>
+                            </li>
+                            <li>
+                                <a href="administrarcartas.php">Administar  cartas</a>
+                            </li>
                             
                         </ul>
                     </li>

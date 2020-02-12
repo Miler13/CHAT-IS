@@ -31,7 +31,7 @@ if(isset($_SESSION['NombreUsuario'])) {
     <script src="../js/jquery.js"></script>
     <script src="js/back-to-top.js"></script>
     <script src="../js/bootstrap.min.js"></script>
-    <script src="ninos/myjava.js"></script>
+    
 </head>
 <body>
            <?php
@@ -40,7 +40,7 @@ if(isset($_SESSION['NombreUsuario'])) {
        <br>
         <div class="container">
             <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-10">
             
              <div class="col-md-6">         
                
@@ -76,9 +76,9 @@ if(isset($_SESSION['NombreUsuario'])) {
      }
      else{
         echo '<script> alert("No Tienes los permisos para acceder a esta pagina.");</script>';
-         echo '<script> window.location="../index.l.php"; </script>';
+         echo '<script> window.location="../index.php"; </script>';
      }
 }else{
- echo '<script> window.location="../index.l.php"; </script>';
+ echo '<script> window.location="../index.php"; </script>';
 }
 ?>
